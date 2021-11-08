@@ -12,10 +12,11 @@ Do you find this template useful? ... Great! Please be kind and follow these ste
 
 ## Minor Upgrades
 
-1. Clone the repo template
-2. Update packages to latest stable versions: `npm update`
-3. Resolve any lingering issues
-4. Submit a PR
+1. Clone the repo template (do not create project from template, actually clone it)
+2. Checkout a new branch
+3. Update packages to latest stable versions: `npm update`
+4. Resolve any lingering issues
+5. Submit a PR
 
 ## Major Upgrades
 
