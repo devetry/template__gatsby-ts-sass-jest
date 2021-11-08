@@ -39,15 +39,15 @@ Software
 
 - Generate TypeScript definition files for SCSS Modules for editing (see [styling](#styling)) by running `npm run type-scss`
 
-## Styling
+# Styling
 
 The styling is [Component-Scoped Styling](https://www.gatsbyjs.com/docs/how-to/styling/css-modules/) with SCSS Modules. However, we use are using TypeScript and there is not a module for typed scss modules that has support for our version of Gatsby, therefore, there is a few extra configurations in place to fix some of missing features that are helpful for development:
 
 - TypeScript files `.ts(x)` show a false error when importing scss files as modules. To fix this, in `src/typings/declarations.d.ts` there is a module declaration that exports all the SCSS module files.
 - TypeScript files `.ts(x)` are unable to recognize and suggest contents available in SCSS modules while editing. The node modules `typed-scss-modules` and `node-sass@"^4.11.0` exist in the project as dev dependencies so that we can generate TypeScript definition files for our SCSS module files. To generate said files, simply run `npm run type-scss`
 
-## Tests
+# Tests
 
-### Unit Testing
+## Unit Testing
 
 [Jest](https://jestjs.io) is the testing framework for our Unit Tests. Specifically, it uses the `React Test Renderer` testing package. View [this documentation](https://www.gatsbyjs.com/docs/how-to/testing/unit-testing/) for the details of how it's all configured and how to write tests.
