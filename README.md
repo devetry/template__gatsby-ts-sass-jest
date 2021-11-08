@@ -32,9 +32,7 @@ Software
 
 # Installation
 
-1. Clone this repo
-2. Install modules using `npm install`
-3. Run `npm run develop` or `npm run start`
+1. Run `gatsby new <project-name> https://github.com/devetry/template__gatsby-ts-sass-jest`
 
 ### Optional
 
